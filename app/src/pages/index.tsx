@@ -1,9 +1,8 @@
-import type {ReactNode} from 'react';
+import React from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
 
 import styles from './index.module.css';
@@ -20,8 +19,8 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            to="/docs/pro-profile">
+            View Professional Profile
           </Link>
         </div>
       </div>
@@ -29,15 +28,64 @@ function HomepageHeader() {
   );
 }
 
-export default function Home(): ReactNode {
+function ProfessionalPillars() {
+  const pillars = [
+    {
+      title: 'Cloud Architecture',
+      description: (
+        <>
+          Expertise in designing scalable and resilient systems on GCP, 
+          leveraging GCE, GKE, and VPC networking for enterprise workloads.
+        </<>
+      ),
+    },
+    {
+      title: 'Strategic TAM',
+      description: (
+        <>
+          Providing executive advisory, driving root-cause analysis (RCA), 
+          and managing complex cloud migrations for global organizations.
+        </<>
+      ),
+    },
+    {
+      title: 'DevOps & Security',
+      description: (
+        <>
+          Implementing robust CI/CD pipelines with Terraform and GitHub Actions, 
+          and securing environments with Cloud Armor and IAM best practices.
+        </<>
+      ),
+    },
+  ];
+
+  return (
+    <section className={styles.features}>
+      <div className="container">
+        <div className="row">
+          {pillars.map((props, idx) => (
+            <div key={idx} className={clsx('col col--4')}>
+              <div className="text--center padding-horiz--md">
+                <Heading as="h3">{props.title}</Heading>
+                <p>{props.description}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+export default function Home(): React.JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      description="GCP Technical Portfolio - Strategic Technical Account Manager & Solutions Architect">
       <HomepageHeader />
       <main>
-        <HomepageFeatures />
+        <ProfessionalPillars />
       </main>
     </Layout>
   );

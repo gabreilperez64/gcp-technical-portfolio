@@ -1,54 +1,36 @@
 ---
+slug: /
 sidebar_position: 1
-title: Professional Profile
 ---
 
-# Gabriel Perez
-**Strategic Technical Account Manager | Professional Cloud Architect**
-*Ex-Googler (LDAP: perezgutierrez@google.com) | Strategic Advisor @ Wursta*
+# Professional Profile: Gabriel Perez
 
----
+### Strategic Technical Account Manager & Solutions Architect
 
-## 🚀 Executive Summary
-Strategic Technical Account Manager and Professional Cloud Architect with over 10 years of technical leadership within the Google ecosystem. Expert in navigating internal Google processes to resolve complex technical escalations and advocate for the success of enterprise customers. 
-
-## 🏗️ Core Expertise (The 4 Pillars)
-
-| Pillar | Key Competencies |
-| :--- | :--- |
-| **GCP Architecture** | GCE, GKE, Multi-cloud Migrations (AWS/Azure to GCP), Disaster Recovery. |
-| **Security & IAM** | Workload Identity, VPC Service Controls, Security Command Center, Hardening. |
-| **Solutions Engineering** | C-Level Strategic Advising, Presales Discovery, AI-driven Transformations. |
-| **DevOps & SRE** | Terraform (IaC), CI/CD Pipelines, Python Automation, Cloud Monitoring/Logging. |
+Experienced technology leader specializing in Google Cloud Platform (GCP) ecosystem, driving digital transformation through strategic advisory, architecture design, and operational excellence.
 
 ---
 
-## 💼 Professional Experience
+## 🏗️ Cloud Architecture
+- **Infrastructure:** Expert in Compute Engine (GCE), Kubernetes Engine (GKE), and VPC Network design.
+- **Resilience:** Designing multi-region, high-availability systems for enterprise-grade workloads.
+- **Data & Analytics:** Orchestrating scalable data pipelines and storage solutions (BigQuery, Cloud Storage).
 
-### **Wursta Corporation (Premier Google Partner)**
-*Cloud Engineering & Architecture | Dec 2023 – Present*
+## 🤝 Strategic Technical Account Management
+- **Executive Advisory:** Partnering with C-level stakeholders to align cloud strategy with business objectives.
+- **Operational Health:** Driving Root-Cause Analysis (RCA) and Incident Management for critical production environments.
+- **Migration Strategy:** Orchestrating complex on-prem to cloud and cloud-to-cloud migrations.
 
-* **Strategic Advisor:** Partnering with C-level stakeholders to translate business goals into high-level technical roadmaps.
-* **Automation Lead:** Architected and automated cloud infrastructure using **Terraform**, ensuring repeatable and secure deployments.
-* **AI Transformation:** Leading Gemini Enterprise deployments and developing custom AI Agents using Google’s **Agent Development Kit (ADK)**.
-* **Security Auditor:** Conducting proactive audits via Security Command Center to provide executive-level hardening recommendations.
-
-### **Google (via Telus International)**
-*Google Cloud Support Engineer | Nov 2022 – Dec 2023*
-
-* **Escalation Management:** Resolved high-impact GCE failures and network misconfigurations for mission-critical applications.
-* **Root Cause Analysis:** Partnered with SRE and Product Engineering to conduct deep-dive RCAs on disk and snapshot failures.
-* **Kubernetes Specialist:** Optimized GKE node pools and debugged complex YAML configurations to accelerate customer adoption.
+## 🚀 DevOps & Security
+- **Infrastructure as Code:** Advanced automation with Terraform and Cloud Deployment Manager.
+- **CI/CD:** Designing robust pipelines using GitHub Actions, Cloud Build, and GitLab.
+- **Security & Compliance:** Implementing least-privilege IAM, Cloud Armor, and VPC Service Controls.
 
 ---
 
-## 🎓 Education & Certifications
-* **Professional Cloud Architect** (Google Certified)
-* **Associate Cloud Engineer** (Google Certified)
-* **ITIL 4 Foundation** (Service Management)
-* **Full Stack Python Development** (Don Bosco University)
-* **Gemini for Google Cloud** (Professional Development)
-
----
-
-> 💡 **TAM Proficiency Note:** Proven track record of bridging the gap between technical complexity and business value to accelerate long-term cloud adoption.
+## 📂 Portfolio Pillars
+Explore the deep-dives into my technical focus areas:
+1. [Architecture Engineering](./01-architecture)
+2. [Security & IAM](./02-security)
+3. [Solutions Engineering](./03-solutions)
+4. [Cloud DevOps](./04-devops)
